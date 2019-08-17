@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hdr_processing">无法切换镜头，有照片正在处理，请稍后再试。</string>
+    <string name="three_cameras">无法切换镜头，您的系统不支持后置副摄像头</string>
+    <string name="pref_auxbackcamera_title">切换到第二个副摄像头</string>
+    <string name="exposure_title">曝光补偿</string>
+    <string name="sat_title">饱和度：</string>
+    <string name="sat_low">低(GCam 默认)</string>
+    <string name="sat_med">中</string>
+    <string name="sat_high">高</string>
+    <string name="pref_screen_manual_focus_title">副摄像头</string>
+    <string name="pref_checkbox_mf_enabled_auto">主摄</string>
+    <string name="pref_checkbox_mf_enabled_macro">长焦</string>
+    <string name="pref_checkbox_mf_enabled_portrait">广角</string>
+    <string name="pref_mf_on_title">取景器显示按钮</string>
+    <string name="pref_init_mf_title">镜头预设模式</string>
+    <string name="pref_ehn_awb_off">关闭</string>
+    <string name="pref_ehn_awb_p2">Pixel 2</string>
+    <string name="pref_ehn_awb_p3">Pixel 3</string>
+    <string name="pref_darkmode_title">界面主题</string>
+    <string name="pref_darkmode_on">暗色</string>
+    <string name="pref_darkmode_off">亮色</string>
+    <string name="pref_bitrate_title">比特率</string>
+    <string name="pref_bitrate_1">自动</string>
+    <string name="pref_qjpg_title">JPEG质量：</string>
+    <string name="pref_qjpg_90">低 - 90%</string>
+    <string name="pref_qjpg_95">中 - 95%</string>
+    <string name="pref_qjpg_100">高 - 100%</string>
+    <string name="pref_frames_title">HDR+增强帧数</string>
+    <string name="pref_frames_8">低 - 8帧</string>
+    <string name="pref_frames_15">中 - 15帧</string>
+    <string name="pref_frames_25">高 - 25帧</string>
+    <string name="pref_manual_option_title">手动选项</string>
+    <string name="pref_manual_mode_title">手动模式</string>
+    <string name="pref_manual_mode_summary">启用手动模式</string>
+    <string name="pref_shutter_title">手动曝光控制</string>
+    <string name="pref_shutter_summary">启用手动快门速度滑块</string>
+    <string name="pref_iso_title">手动ISO控制</string>
+    <string name="pref_iso_summary">启用手动灵敏度滑块（实验）</string>
+    <string name="pref_black_white_title">单色</string>
+    <string name="pref_black_white_summary">如果启用，照片将是黑白的</string>
+    <string name="pref_ehn_awb_title">在HDR+中增强Pixel自动白平衡(AWB)</string>
+    <string name="pref_screen_manual_focus_summary">启用第二个和第三个镜头</string>
+    <string name="pref_max_tripod_title">增加三脚架捕捉时间</string>
+    <string name="pref_max_tripod_summary">如果稳定安装三脚架，则增加帧数和曝光时间</string>
+    <string name="libPicker_title">自定义lib库</string>
+</resources>
