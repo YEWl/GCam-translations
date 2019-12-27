@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hdr_processing">无法切换镜头。有照片处理。请稍后再试。</string>
+    <string name="three_cameras">无法切换镜头。 您的系统不支持辅助后镜头。</string>
+    <string name="exposure_title">曝光补偿</string>
+    <string name="pref_screen_manual_focus_title">辅助相机</string>
+    <string name="pref_checkbox_mf_enabled_auto">主摄像头</string>
+    <string name="pref_checkbox_mf_enabled_macro">长焦镜头</string>
+    <string name="pref_checkbox_mf_enabled_portrait">广角镜头</string>
+    <string name="pref_mf_on_title">显示按钮</string>
+    <string name="pref_ehn_awb_off">关闭</string>
+    <string name="pref_ehn_awb_p2">Pixel 2</string>
+    <string name="pref_ehn_awb_p3">Pixel 3</string>
+    <string name="pref_frames_title">HDR+增强帧数</string>
+    <string name="pref_frames_9">低 - 09帧</string>
+    <string name="pref_frames_15">中 - 15帧</string>
+    <string name="pref_frames_25">高 - 25帧</string>
+    <string name="pref_ehn_awb_title">在HDR+中增强Pixel自动白平衡(AWB)</string>
+    <string name="pref_screen_manual_focus_summary">启用第二个和第三个镜头</string>
+    <string name="pref_version">软件信息</string>
+    <string name="pref_author">GCam 7.2.010 by Urnyx05 zhCN by YuanEn</string>
+    <string name="pref_base">基于Google Camera版本</string>
+    <string name="pref_version_number">版本 : 1.9</string>
+    <string name="pref_credit">构建该版本的所有开发人员</string>
+    <string name="pref_check_version">检查版本</string>
+    <string name="pref_update">检查更新和更改日志</string>
+    <string name="pref_maxbright_title">最大屏幕亮度</string>
+    <string name="pref_maxbright_summary">它最大限度地增加屏幕亮度，以改善阳光下的可见性。</string>
+    <string name="pref_maxexpsec_title">天文摄影最大曝光时间</string>
+    <string name="pref_astro_title">启用天文摄影</string>
+    <string name="pref_astro_summary">它可以在弱光下拍摄更好的照片</string>
+    <string name="pref_enable_patcher_title">启用Lib库补丁</string>
+    <string name="pref_enable_patcher_summary">如果禁用，它将使用默认值。</string>
+    <string name="lib_sharpness_title">锐化</string>
+    <string name="lib_luma_title">亮度降噪</string>
+    <string name="lib_chroma_title">色度降噪</string>
+    <string name="lib_saturation_title">饱和度</string>
+    <string name="lib_contrast_title">对比度</string>
+    <string name="lib_group_title">Lib库补丁</string>
+    <string name="lib_group_summary">它提高了照片的质量</string>
+    <string name="libpatcher_main">后置摄像头</string>
+    <string name="libpatcher_tele">长焦镜头</string>
+    <string name="libpatcher_wide">广角镜头</string>
+    <string name="pref_noise_hex_375">0.375 (默认 Marian)</string>
+    <string name="pref_noise_hex_1000">1.0 (默认 Google)</string>
+    <string name="pref_hex_1000">1.0 (默认)</string>
+    <string name="pref_default">默认</string>
+    <string name="pref_pzoom_title">禁用纵向模式下的缩放</string>
+    <string name="pref_pzoom_summary">默认缩放为1.5倍</string>
+    <string name="pref_enable_libpatcher_summary">"如果禁用，它将使用默认值。
+
+一些注意事项：
+1) 这些设置会修改图像的最终外观，这意味着没有最佳设置，应在进行自己的测试后根据您的个人喜好进行调整。
+
+2)测试一个选项的最佳方法是降低到最小或提高到最大并拍摄一些测试照片以查看发生了什么。
+
+3)建议您仅修改全局乘数，直到您大致了解每个选项在各种场景中的作用。 然后，一旦理解，您可以将“全局乘数”重置为“默认值”，然后调整“小波降噪级别”，以根据自己的喜好更好地控制降噪参数。
+
+4) 当“降噪”参数降低到1.0以下时，您可能需要降低“锐度”以补偿锐化的伪像（边缘周围的明亮光晕）。 如果将“降噪”参数提高到1.0以上，则相反。
+
+5) 这是编辑色调曲线的设置的快速说明。
+   - 暗点：这是色调曲线上最左边的起点。暗点值影响Y轴，并将这个起始点移动到指定的量。
+
+   - 白点：这是色调曲线上最右边的点。白点值影响Y轴，并将该端点移动到指定的量。
+
+   - 阴影：这些值影响下半部曲线。正值向上推曲线的下半部分，负值向下推。
+
+   - 高光：这些值影响上半部曲线。像阴影一样，正值将其向上推，负值将其向下推。"</string>
+    <string name="lib_fine_l1_title">1级 细节(Fine Details)</string>
+    <string name="lib_fine_l2_title">2级 粗糙表面(Rough Surfaces)</string>
+    <string name="lib_fine_l3_title">3级 边缘(Edges)</string>
+    <string name="lib_fine_l4_title">4级 光滑表面(Smooth Surfaces)</string>
+    <string name="lib_wavelet_luma_title">小波亮度降噪等级（全球因素）</string>
+    <string name="lib_wavelet_chroma_title">小波色度降噪等级（全球因素）</string>
+    <string name="lib_tonecurve_title">色调曲线</string>
+    <string name="lib_tonecurve_on_title">启用色调曲线</string>
+    <string name="lib_pdarks_title">暗点</string>
+    <string name="lib_pwhites_title">白点</string>
+    <string name="lib_darks_title">阴影（下半曲线）</string>
+    <string name="lib_whites_title">高光（曲线上半部）</string>
+    <string name="pref_libcurve_moreinfo_title">点击此处了解更多</string>
+    <string name="pref_aemode_back_title">后置摄像头</string>
+    <string name="pref_aemode_front_title">前置摄像头</string>
+    <string name="pref_aemode_title">ISO/曝光时间 HDR+</string>
+    <string name="pref_aemode_0">自动</string>
+    <string name="pref_aemodef_0">自动</string>
+    <string name="pref_exposure_max_time_title">最长曝光时间</string>
+    <string name="pref_exposure_max_time_0">0.3 秒</string>
+    <string name="pref_exposure_max_time_1">0.5 秒</string>
+    <string name="pref_exposure_max_time_2">1 秒</string>
+    <string name="pref_exposure_max_time_3">3 秒</string>
+    <string name="pref_exposure_max_time_4">0.6 * 最长曝光时间</string>
+    <string name="pref_exposure_max_time_5">最长曝光时间</string>
+    <string name="exp_b_title">后置摄像头</string>
+    <string name="exp_f_title">前置摄像头</string>
+    <string name="pref_aemode_category_title">ISO/曝光时间</string>
+    <string name="pref_aemode_5">ISO 100/最长时间</string>
+    <string name="pref_aemode_summary">它允许根据光量手动调整曝光值</string>
+    <string name="pref_4k_timelapse_title">4K延时</string>
+    <string name="pref_4k_timelapse_summary">使用更多存储空间.</string>
+    <string name="pref_google_photos_title">启用谷歌相册</string>
+    <string name="pref_google_photos_summary">作为相机库使用具有高级功能的谷歌相册.</string>
+</resources>
